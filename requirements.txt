@@ -1,0 +1,24 @@
+# Core dependencies
+Pillow>=9.0.0
+numpy>=1.21.0
+scipy>=1.7.0
+tqdm>=4.60.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Topological Data Analysis
+# Note: giotto-tda requires CMake and may have build issues
+# If installation fails, you may need to install from source or use conda
+# giotto-tda>=0.1.4
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+jinja2>=3.1.2
+
+# Optional: for better performance
+matplotlib>=3.5.0
+
+
